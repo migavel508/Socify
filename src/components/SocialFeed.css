@@ -1,0 +1,19 @@
+/* src/components/SocialFeed.css */
+.social-feed {
+    padding: 20px;
+    background-color: #fafafa;
+    min-height: 100vh;
+  }
+  
+  .feed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .no-feed-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  

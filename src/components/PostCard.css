@@ -1,0 +1,64 @@
+/* src/components/PostCard.css */
+.post-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .post-user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .post-user-details {
+    flex-grow: 1;
+  }
+  
+  .post-username {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .post-time {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-footer {
+    padding: 10px;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .post-action {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .post-description {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
